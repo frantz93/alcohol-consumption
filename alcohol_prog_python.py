@@ -1,4 +1,5 @@
 # NB. librairies à installer si non déjà installées
+
 #pip install matplotlib
 #pip install pandas
 #pip install openpyxl
@@ -6,7 +7,7 @@
 
 #Definition du répertoire de travail
 import os
-os.chdir("C:/Users/NEW/OneDrive/Dossiers/Approfondissement logiciels\Dossier final")
+os.chdir("C:/Users/user/Desktop/github/alcohol-consumption")
 print(os.getcwd())
 
 #Importation des librairies utiles
@@ -35,4 +36,3 @@ model.summary()
 
 #Effets marginaux moyens
 print(model.get_margeff(at ='overall').summary()) # effets marginaux moyens
-
